@@ -11,7 +11,7 @@ __pycache__
 dist
 build
 .eggs
-artemis.egg-info
+*.egg-info
 .ipynb_checkpoints
 *pyc
 _*.cpp

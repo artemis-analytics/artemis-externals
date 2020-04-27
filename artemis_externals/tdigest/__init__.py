@@ -22,8 +22,5 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 ###############################################################################
-
-
-from .tdigest import TDigest  # noqa: F401
-
-# __version__ = "0.5.2.1"
+from __future__ import absolute_import
+from .tdigest import TDigest

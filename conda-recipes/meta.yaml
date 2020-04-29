@@ -32,12 +32,17 @@ requirements:
         - pip  # keep conda happy  
         - pkg-config
         - packaging
-        - numpy
         - artemis-format
+        - numpy>=1.14
+        - scipy 
+        - pandas
         - protobuf
+        - pytest
 test:
     imports:
         - artemis_externals
+    commands:
+        - python -m unittest discover artemis_externals
 
 about:
     summary: 'Metastore and object store for the Artemis Ecosystem'

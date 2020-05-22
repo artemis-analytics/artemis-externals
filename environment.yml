@@ -28,3 +28,5 @@ dependencies:
     - pandas
     - protobuf
     - pytest
+    - conda-build
+    - anaconda-client
